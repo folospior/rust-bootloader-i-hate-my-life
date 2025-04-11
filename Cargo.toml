@@ -1,0 +1,10 @@
+[package]
+name = "rust-bootloader-i-hate-my-life"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+embedded-graphics = "0.8.1"
+log = "0.4.27"
+tinybmp = "0.6.0"
+uefi = { version = "0.34.1", features = ["alloc", "global_allocator", "logger", "panic_handler"], default-features = false }
